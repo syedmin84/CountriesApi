@@ -1,0 +1,44 @@
+.errorContainer {
+    text-align: center;
+    background: white;
+    padding: 0px 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit width to prevent stretching */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: -30px; /* Add top margin for spacing */
+}
+
+.errorTitle {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.errorText {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.errorImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.homeButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.homeButton:hover {
+    background-color: #0056b3;
+}

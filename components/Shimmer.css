@@ -1,0 +1,35 @@
+.gray-shimmer {
+    margin: 200px auto;
+    position: relative;
+    width: 300px; /* Change the width as needed */
+    height: 150px; /* Change the height as needed */
+    background-color: #eee; /* Gray color */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', sans-serif; /* Change font family as needed */
+    font-size: 24px; /* Change font size as needed */
+    font-weight: bold; /* Make text bold */
+    color: #333; /* Text color */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Add text shadow for depth */
+  }
+  
+  .loading-text:before {
+    content: 'Loading';
+    background: linear-gradient(to right, transparent 0%, #ccc 50%, transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite linear;
+  }
+  
+  @keyframes shimmer {
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
